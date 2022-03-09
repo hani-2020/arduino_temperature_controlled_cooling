@@ -1,0 +1,6 @@
+﻿Name,Quantity,Component
+"U1",1," Arduino Uno R3"
+"U2, U3",2," Temperature Sensor [TMP36]"
+"M1",1," DC Motor"
+"Bat4",1," 2 x AA Battery"
+"Meter5",1,"Voltage Multimeter"
