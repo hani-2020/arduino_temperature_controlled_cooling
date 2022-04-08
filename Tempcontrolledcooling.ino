@@ -11,7 +11,7 @@ Serial.begin(9600);
 
 void loop() {
 val=analogRead(inpin);
-temp=(val+2486)/100;
+temp=((val/0.204)-500)/10;
   if (temp>cond){
     digitalWrite(outpin, HIGH);}
   delay(5000);
